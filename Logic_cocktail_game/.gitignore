@@ -1,0 +1,15 @@
+# Gradle files
+.gradle/
+build/
+
+# IDE-specific files
+.idea/
+
+# Gradle wrapper files
+gradlew
+gradlew.bat
+gradle/wrapper/
+
+# Logs and temporary files
+*.log
+out/
