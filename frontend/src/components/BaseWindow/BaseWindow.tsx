@@ -59,7 +59,7 @@ function BaseWindow() {
         fetch("http://localhost:8080/api/cocktail/highScore")
             .then((response) => response.json())
             .then((data) => {
-                setRecord(data.score); // Assuming 'score' is the field in the high score object
+                setRecord(data.score); 
             })
             .catch((error) => console.error("Error fetching high score:", error));
     }
