@@ -10,10 +10,8 @@ public class Result {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
     private int score;
-
-    // Конструкторы, геттеры и сеттеры
+   
     public Result() {}
 
     public Result(int score) {
@@ -28,8 +26,6 @@ public class Result {
     public void setId(Long id) {
         this.id = id;
     }
-
-
 
     public int getScore() {
         return score;
