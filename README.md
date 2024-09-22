@@ -1,6 +1,6 @@
 # Cocktail Guessing Game
 
-![Описание изображения](https://github.com/ваш-пользователь/ваш-репозиторий/blob/main/images/ваш-файл.png)
+![Описание изображения](https://github.com/Mcclares/Cocktail_Game/CocktailGame.png)
 
 This project is a cocktail guessing game built using **React** for the frontend and **Spring Boot** for the backend.
 
