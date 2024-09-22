@@ -13,10 +13,10 @@ public class WebConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**")  // Указываем, какие URL доступны для кросс-доменных запросов
-                        .allowedOrigins("http://localhost:3000")  // Указываем, откуда можно отправлять запросы (например, React-приложение на 3000 порту)
-                        .allowedMethods("GET", "POST", "PUT", "DELETE")  // Разрешенные методы
-                        .allowedHeaders("*");  // Разрешенные заголовки
+                registry.addMapping("/**")  
+                        .allowedOrigins("http://localhost:3000")  
+                        .allowedMethods("GET", "POST", "PUT", "DELETE")  
+                        .allowedHeaders("*");  
             }
         };
     }
