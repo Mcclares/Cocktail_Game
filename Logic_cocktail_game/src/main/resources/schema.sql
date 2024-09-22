@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS temp(
-   id                   BIGINT AUTO_INCREMENT PRIMARY KEY
-  ,temp                 VARCHAR(256) NULL
+CREATE TABLE result (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    score INT NOT NULL,
 );

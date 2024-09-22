@@ -13,3 +13,15 @@ gradle/wrapper/
 # Logs and temporary files
 *.log
 out/
+
+# Java и Maven
+/target/
+/out/
+/build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Конфигурации системы
+.DS_Store
