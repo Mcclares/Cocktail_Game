@@ -77,11 +77,10 @@ public class GameController {
                     currentGame.setHintStep(Hints.image.ordinal());
                     break;
                 default:
-                    currentGame.setHintStep(0); //
+                    currentGame.setHintStep(0); 
                     break;
             }
-            currentGame.setHintStep(hintStep + 1); // Увеличиваем шаг подсказки
-
+            currentGame.setHintStep(hintStep + 1); 
             return ResponseEntity.ok(currentGame);
         }
     }
@@ -155,7 +154,7 @@ public class GameController {
                 cocktail.getIngredient(),
                 "Correct",
                 cocktail.getCategory(),
-                this.currentScore, // Сохраняем текущие очки
+                this.currentScore, 
                 0
         );
         this.attemptsLeft = 5;
