@@ -1,0 +1,11 @@
+.cocktailImage {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    position: fixed;
+    top: 110px;
+    right: 25px;
+}
