@@ -1,0 +1,35 @@
+.base {
+    padding-top: 50px;
+    background-color: #c27f8f;
+    width: 500px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+
+}
+
+.hint-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:white;
+
+
+}
+
+.hint-container > * {
+    margin-bottom: 2px;
+}

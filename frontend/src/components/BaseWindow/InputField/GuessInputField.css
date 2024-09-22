@@ -1,0 +1,15 @@
+.input-classic {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s ease;
+    position: fixed;
+    top: 90px; /* Смещение сверху */
+    left: 24px;
+}
+
+.input-classic:focus {
+    border-color: #7d4cdb;
+    outline: none;
+}
