@@ -1,6 +1,6 @@
 # Cocktail Guessing Game
 
-![Описание изображения](https://github.com/Mcclares/Cocktail_Game/CocktailGame.png)
+![Описание изображения](https://github.com/Mcclares/Cocktail_Game/blob/main/CocktailGame.png)
 
 This project is a cocktail guessing game built using **React** for the frontend and **Spring Boot** for the backend.
 
@@ -20,7 +20,9 @@ This project is a cocktail guessing game built using **React** for the frontend 
  ```bash
   ./gradlew bootRun
    ```
+
 ### Frontend (React):
+***This step you do not need to do it, because have already built and add static files in java project. Just run java project.***
 ## Navigate to the frontend directory:
    ```bash
    cd frontend
