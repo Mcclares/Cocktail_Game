@@ -16,11 +16,10 @@ This project is a cocktail guessing game built using **React** for the frontend 
    ```bash
    cd Logic_cocktail_game
 
-## Build and run the project: For Gradle:
+#### Build and run the project: For Gradle:
   ```bash
   gradle wrapper
    ```
- 
  ```bash
   ./gradlew bootRun
    ```
